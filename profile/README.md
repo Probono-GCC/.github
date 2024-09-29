@@ -65,10 +65,10 @@
 - 형상 관리 : Git Flow의 브랜치 전략을 채택하여 Github로 관리하였습니다.
 - 이슈 관리 : 주간회의를 진행하며 Confluence에 회의록을 작성하였으며 파트별 주간 Wiki를 작성하여 이슈를 공유하였습니다.
 
-### 3. 시스템 아키텍처
+## 3. 시스템 아키텍처
 <img width="498" alt="image" src="https://github.com/user-attachments/assets/d5dd3f57-6d41-4a94-b066-1ef715c01ed3">
 
-### 4. ERD
+## 4. ERD
 <img width="813" alt="image" src="https://github.com/user-attachments/assets/3dedc3a7-2fa8-4dfc-9d78-c4482fae32de">
 
 
