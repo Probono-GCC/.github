@@ -133,6 +133,30 @@
 |------|
 |![출석](https://github.com/user-attachments/assets/72891564-8d74-4de5-84da-36d5f09dbb6a)|
 
+### [학년별 커리큘럼 관리]
+|학년별 커리큘럼 관리|
+|------|
+|![학년별커리큘럼관리](https://github.com/user-attachments/assets/b8b5885a-7675-4791-a929-7bb660ad8adb)|
+
+### [학급 게시판]
+|학년별 커리큘럼 관리|
+|------|
+|![학급 게시판](https://github.com/user-attachments/assets/4fe47d96-8ca4-4bab-8721-56f38602ec58)|
+
+### [마이페이지]
+|마이페이지|
+|------|
+|![마이페이지](https://github.com/user-attachments/assets/a9613152-18d2-42bd-b148-ea9270a49172)|
+
+### [학급정보]
+|학급정보|
+|------|
+|![학급정보](https://github.com/user-attachments/assets/3ce1cdc6-17b5-4512-aacc-71dbf2a67bf5)|
+
+
+
+
+
 ## 6. 사용자 리서치 및 피드백
 교장 선생님과 주기적으로 카톡 회의 및 온라인 미팅을 진행하고,주된 사용자인 학생들에게 설문조사를 진행하여 피드백을 받을 수 있었습니다.
 
