@@ -65,9 +65,25 @@
 - 형상 관리 : Git Flow의 브랜치 전략을 채택하여 Github로 관리하였습니다.
 - 이슈 관리 : 주간회의를 진행하며 Confluence에 회의록을 작성하였으며 파트별 주간 Wiki를 작성하여 이슈를 공유하였습니다.
 
-## 3. 시스템 아키텍처
-<img width="365" alt="image" src="https://github.com/user-attachments/assets/33c3ecc9-920f-4ade-80a7-ed70cc8a4a2a">
 
+
+## 3. 시스템 아키텍처
+
+### 🟠 기존 아키텍처 (S3 + CodeDeploy 기반)
+
+<img src="https://github.com/user-attachments/assets/33c3ecc9-920f-4ade-80a7-ed70cc8a4a2a" alt="기존 아키텍처" width="400"/>
+
+- **CI/CD 도구**: GitHub Actions → S3 → CodeDeploy  
+- **배포 방식**: EC2에 직접 JAR 파일을 복사하여 실행 (`start.sh`)
+
+---
+
+### 🟢 개선 아키텍처 (Docker 기반 Blue-Green 무중단 배포)
+
+<img src="https://github.com/user-attachments/assets/4247a4fd-fcf2-433d-af06-868c553de97a" alt="개선 아키텍처" width="400"/>
+
+- **CI/CD 도구**: GitHub Actions → Docker Hub  
+- **배포 방식**: `deploy.sh` 스크립트로 조건에 따라 `blue` 또는 `green` 컨테이너 실행  
 
 ## 4. ERD
 <img width="813" alt="image" src="https://github.com/user-attachments/assets/3dedc3a7-2fa8-4dfc-9d78-c4482fae32de">
