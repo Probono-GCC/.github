@@ -80,7 +80,7 @@
 
 ### 🟢 개선 아키텍처 (Docker 기반 Blue-Green 무중단 배포)
 
-<img src="https://github.com/user-attachments/assets/4247a4fd-fcf2-433d-af06-868c553de97a" alt="개선 아키텍처" width="400"/>
+<img width="397" height="667" alt="image" src="https://github.com/user-attachments/assets/eb3d53c9-83f0-4e20-9ccc-4fc5f21db7a1" />
 
 - **CI/CD 도구**: GitHub Actions → Docker Hub  
 - **배포 방식**: `deploy.sh` 스크립트로 조건에 따라 `blue` 또는 `green` 컨테이너 실행  
